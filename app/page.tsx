@@ -33,6 +33,8 @@ export default async function Home() {
                 Browse All Products
               </Link>
             </Button>
+            </div>
+            <div>
             {/* to display an image i'm using first image from my strpie api images */}
             <Image
             alt="Hero Image"
@@ -41,7 +43,8 @@ export default async function Home() {
             width={450}
             height={450}
           />
-    </div>
+          </div>
+    
     </div>
      
   </section>
